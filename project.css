@@ -1,0 +1,497 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Inter:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.top {
+    background-image: url(./IMG-f/Rectangle\ 48.png);
+    background-size: cover;
+    width: 100%;
+    height: 85vh;
+    position: relative;
+    overflow: hidde;
+}
+
+.logo-r {
+    display: flex;
+
+}
+
+.log img {
+    width: 100px;
+    margin-left: 40%;
+
+
+}
+
+.pan {
+    color: #F6F6F6;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    margin-left: 80%;
+}
+
+
+.top .Group img {
+    width: 50%;
+    margin-left: 49%;
+    margin-top: 0%;
+
+
+}
+
+.top .Group img {
+    position: absolute;
+}
+
+
+.text {
+    margin-top: 18%;
+    margin-left: 5%;
+    width: fit-content;
+
+
+}
+
+.text h3 {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 37px;
+    font-size: 39px;
+
+}
+
+.text p {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* button-section */
+
+.dwonload-btn {
+    display: flex;
+    margin-top: 14px;
+    margin-left: 5%;
+}
+
+
+
+.apple-btn {
+
+    font-family: "Montserrat", sans-serif;
+    width: 200px;
+    display: flex;
+    border: 1px solid #FF0000;
+    padding: 10px 0;
+    align-items: center;
+    margin: 0px 10px;
+    padding-left: 2%;
+    border-radius: 30px;
+    font-weight: bold;
+    color: white;
+    background-color: #FF0000;
+    cursor: pointer;
+}
+
+
+.btn-2 {
+    font-family: "Montserrat", sans-serif;
+    width: 200px;
+    display: flex;
+    margin: 0px 10px;
+    border-radius: 30px;
+    padding: 0px 8px 0px 5px;
+    align-items: center;
+    padding-left: 2%;
+    border: 1px solid#fff;
+    background: transparent;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+
+}
+
+
+.btn-2 :hover {
+    border: 2px solid #fe7250;
+    background: transparent;
+}
+
+
+
+
+.dowmload-text span {
+    margin-left: 15px;
+    font-size: 12px;
+    text-align: center;
+
+}
+
+
+
+
+.img-cit .cl img {
+    margin-top: 100px;
+    width: 230px;
+}
+
+
+
+.cl {
+
+    display: flex;
+    padding: 60px;
+    margin: 60px;
+    align-items: center;
+    justify-content: space-between;
+
+
+
+}
+
+
+
+/* card section */
+
+.cards {
+    margin-top: 40%;
+    text-align: center;
+
+}
+
+.cards :hover {
+    scale: 1.1;
+}
+
+.cards h1 {
+    font-family: "Poppins", sans-serif;
+    margin-top: 40%;
+    text-align: center;
+    font-weight: bold;
+    color: #000000;
+    ;
+}
+
+.phone-cards img {
+    width: 21%;
+    position: relative;
+}
+
+.phone-cards {
+    display: flex;
+    margin-top: 1%;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.phone-cards .text-cr {
+    align-items: center;
+    margin-top: 5%;
+    text-align: left;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+.text-cr span {
+    color: #FF0000;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+
+
+}
+
+.phones-cards img {
+    width: 21%;
+}
+
+.phones-cards {
+    display: flex;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+.phones-cards .texts-cr {
+    align-items: center;
+    margin-top: 5%;
+    text-align: left;
+    margin-left: 7%;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.texts-cr span {
+    color: #FF0000;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+
+
+}
+
+.hrline {
+    margin-bottom: 20%;
+    width: 40%;
+    margin-left: 30%;
+    border: 1px solid #E4E4E4
+}
+
+.cards-body {
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    margin-left: 20%;
+}
+
+.cards-section h2 {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 40px;
+}
+
+
+.cards-profile p {
+    font-family: "Montserrat", sans-serif;
+    text-align: left;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-left: 15%;
+    padding: 10px;
+}
+
+
+
+.cards-profile {
+    width: 270px;
+    height: 320px;
+    border: 1px solid #E4E4E4;
+    cursor: pointer;
+
+
+
+}
+
+.cards-profile:hover {
+    scale: 1.1;
+}
+
+.cards-profile .imgprofile {
+    margin-top: 26px;
+    width: 100px;
+    margin-left: 40%;
+}
+
+
+.cards-profile .imgprofile span {
+    color: #FF0000;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.cards-profile .imgprofile p {
+    color: #455880;
+
+}
+
+.bottom {
+    background-image: url(IMG-f/footer.png);
+    background-size: cover;
+    width: 100%;
+    height: 60vh;
+    position: relative;
+    margin-top: 5%;
+
+
+}
+
+.bottom .header-fg {
+    text-align: center;
+    margin-top: 5%;
+    color: #FFFFFF;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+
+
+
+.input-section {
+    text-align: center;
+    margin-top: 3%;
+
+}
+
+.input-section input {
+    border: 2px solid #FFFFFF;
+    padding: 10px 20px;
+    background: transparent;
+    font-weight: bold;
+
+}
+
+.input-section ::placeholder {
+    color: #fff;
+}
+
+.input-section button {
+    border: 2px solid #FF0000;
+    background-color: #FF0000;
+    border-radius: 20px;
+    padding: 8px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-left: 1%;
+
+}
+
+.dwonload-btns {
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.apple-btns {
+
+    font-family: "Montserrat", sans-serif;
+    width: 200px;
+    display: flex;
+    border: 1px solid #FF0000;
+    padding: 10px 0;
+    align-items: center;
+    margin: 0px 10px;
+    padding-left: 2%;
+    border-radius: 30px;
+    font-weight: bold;
+    color: white;
+    background-color: #FF0000;
+    cursor: pointer;
+}
+
+
+.btn-3 {
+    font-family: "Montserrat", sans-serif;
+    width: 200px;
+    display: flex;
+    margin: 0px 10px;
+    border-radius: 30px;
+    padding: 0px 8px 0px 5px;
+    align-items: center;
+    padding-left: 2%;
+    border: 1px solid#fff;
+    background: transparent;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+
+}
+
+.btn-2 :hover {
+    border: 2px solid #fe7250;
+    background: transparent;
+}
+
+.dowmload-texts span {
+    margin-left: 15px;
+    font-size: 12px;
+    text-align: center;
+
+}
+
+
+h1 {
+    color: #252B42;
+    text-align: center;
+    margin-top: 5%;
+    font-family: "Montserrat", sans-serif;
+
+
+}
+
+
+.cardsfoot {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 15px;
+    align-items: center;
+}
+
+.cardsfoot {
+    font-weight: 300;
+    font-size: 10px;
+}
+
+
+
+.plok {
+    display: flex;
+    margin-top: 2%;
+    justify-content: center;
+    width: 35%;
+    height: 30vh;
+    border-radius: 4px;
+    border: 1px solid #45588033;
+    font-family: "Montserrat", sans-serif;
+}
+
+.gklo {
+    margin-top: 10%;
+}
+
+.textghk {
+    font-family: "Montserrat", sans-serif;
+    margin-left: 2%;
+    margin-top: 10%;
+}
+
+.textghk p {
+    font-size: 13px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.textghk span {
+    color: #FF0000;
+}
+
+
+.cardsfoots {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 15px;
+}
+
+
+/* footer-section */
+.footer-section {
+    background-color: #252B42;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    margin: 20px;
+}
+
+.img-rfd img {
+    width: 50%;
+    margin: 0% 0px 5% 0px;
+}
+
+.cop span {
+    margin: 2% 0% 0% 0%;
+    color: #FFFFFF;
+    font-family: "Montserrat", sans-serif;
+    width: 40%;
+}
+
+.imgft {
+    display: flex;
+    width: 70px;
+    margin: 0% 2% 0% 2%;
+    padding: 5px;
+
+}
